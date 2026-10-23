@@ -10,6 +10,7 @@ export LANG=en_US.UTF-8
 export EDITOR='nano'
 
 # --- ALIAS ---
+alias update-zshrc="zsh <(wget -qO- https://raw.githubusercontent.com/kiwijc/dotfiles/refs/heads/main/zsh/update-zshrc.sh)"
 alias traceroute='traceroute -w 2'
 alias ls="ls -lhs --color --group-directories-first"
 alias lsa="ls -lhsa --color --group-directories-first"
