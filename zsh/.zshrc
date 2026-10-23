@@ -15,4 +15,4 @@ alias traceroute='traceroute -w 2'
 alias ls="ls -lhs --color --group-directories-first"
 alias lsa="ls -lhsa --color --group-directories-first"
 alias gcs="git commit -S -m"
-alias duf="docker compose down && docker compose pull && docker compose up -d --build && docker compose logs -f"
+alias duf="docker compose pull && docker compose down && docker compose up -d --build && docker compose logs -f"
