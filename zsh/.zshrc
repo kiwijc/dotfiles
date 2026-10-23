@@ -3,6 +3,7 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_THEME="clean"
 zstyle ':omz:update' mode auto
 zstyle ':omz:update' frequency 7
+zstyle ':omz:update' verbose minimal
 plugins=(git)
 source $ZSH/oh-my-zsh.sh
 export LANG=en_US.UTF-8
